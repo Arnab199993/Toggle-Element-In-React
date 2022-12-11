@@ -7,7 +7,7 @@ const app = () => {
   return (
     <div>
       <button onClick={click}>button</button>
-      {toggle && <h1>HI</h1>}
+      {toggle && <h1 style={{position:"absolute"}}>HI</h1>}
     </div>
   );
 };
